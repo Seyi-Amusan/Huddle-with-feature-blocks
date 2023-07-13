@@ -1,0 +1,58 @@
+@import 'sass/button';
+@import 'sass/footer';
+@import 'sass/header';
+@import 'sass/main';
+@import 'sass/typography';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+    @media (max-width: 810px){
+        font-size: 50%;
+    }
+
+    @media (max-width: 600px){
+        font-size: 40%;
+    }
+
+    @media (max-width: 500px){
+        font-size: 30%;
+    }
+
+    @media (max-width: 370px){
+        font-size: 20%;
+    }
+}
+
+body{
+    display: grid;
+    row-gap: 8rem;
+}
+
+:root{
+    --white: rgb(255, 255, 255);
+    --white-a: rgba(255, 255, 255, .9);
+    --black: #000;
+    --black-a: rgba(0, 0, 0, .3);
+    --black-a2: rgba(0, 0, 0, .1);
+    --pink: hsl(322, 100%, 66%);
+    --gblue: hsl(208, 11%, 55%);
+    --vpcyan: hsl(193, 100%, 96%);
+    --vdcyan: hsl(192, 100%, 9%);
+    --lblue: hsl(207, 100%, 98%);
+}
+
+.glass{
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(9px);
+    padding: 3rem;
+    border-radius: 2rem;
+}
+//font-family: 'Poppins', sans-serif;

@@ -1,0 +1,43 @@
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 3rem;
+    border: 0;
+    box-shadow: 0 2px 3px var(--black-a);
+    transition: all .3s;
+
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+}
+
+.nav-btn{
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 2rem;
+    height: 6rem;
+    width: 15rem;
+
+    @media (max-width: 720px) {
+        width: 10rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+}
+
+.header-btn{
+    height: 5.5rem;
+    width: 25rem;
+    font-size: 2rem;
+
+    @media (max-width: 1040px){
+        width: 85vw;
+        height: 6rem;
+    }
+}
+
+.btn-pink{
+    color: var(--white);
+    background-color: var(--pink);
+}

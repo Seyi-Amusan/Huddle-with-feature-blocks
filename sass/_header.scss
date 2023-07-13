@@ -1,0 +1,65 @@
+.header{
+    background-image: url(images/bg-hero-desktop.svg), linear-gradient(var(--vpcyan), var(--vpcyan));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+
+    padding: 6rem;
+
+    display: grid;
+    
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--logo{
+            min-width: 16rem;
+            max-width: 30%;
+        }
+    }
+
+    &__main{
+        display: grid;
+        grid-auto-flow: column;
+        column-gap: 5rem;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+
+        @media (max-width: 1040px){
+            grid-auto-flow: row;
+        }
+    }
+
+    &__text-box{
+        display: grid;
+        row-gap: 3rem;
+        
+        padding: 13rem 0;
+
+        &--heading{
+            font-size: 4.5rem;
+        }
+
+        &--paragraph{
+            font-size: 2.5rem;
+        }
+        &--btn{
+            align-self: center;
+            justify-self: start;
+        }
+    }
+
+    &__img{
+        width: 40vw;
+
+        @media (max-width: 1040px){
+            width: 85vw;
+        }
+        
+    }
+}
+

@@ -1,0 +1,114 @@
+.footer{
+    display: grid;
+    
+    &__top{
+        background-color: #fff;
+        border-radius: 1rem;
+        box-shadow: 0 3px 3rem var(--black-a);
+        display: inline;
+        width: 40rem;
+        height: 18rem;
+        transform: translateY(50%);
+        z-index: 20;
+
+        justify-self: center;
+        display: grid;
+        justify-items: center;
+        row-gap: 1rem;
+        align-items: center;
+
+        &--heading{
+            font-size: 2.8rem;
+            align-self: end;
+            text-align: center;
+        }
+        &--btn{
+            width: 20rem;
+            height: 5rem;
+            font-size: 1.8rem;
+            box-shadow: 0 2px 4px var(--black-a);
+        }
+    }
+
+    &__btm{
+        background-color: var(--vdcyan);
+        padding: 15rem 8rem 5rem;
+        color: var(--vpcyan);
+        z-index: 0;
+
+        display: grid;
+        row-gap: 4rem;
+
+        &--logo{
+            fill: #fff;
+            width: 35%;
+        }
+
+        &--copy{
+            justify-self: end;
+            font-size: 1.1rem;
+        }
+    }
+
+    &__main{
+        display: grid;
+        grid: auto / 40rem 1fr 1fr ;
+        column-gap: 4%;
+        align-items: start;
+
+        @media (max-width: 870px){
+            grid-auto-flow: row;
+            grid: auto / auto;
+            row-gap: 5rem;
+        }
+    }
+
+    &__info{
+        display: grid;
+        row-gap: 2rem;
+        &-box{
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: max-content 1fr;
+            column-gap: 2rem;
+            justify-items: start;
+
+            font-size: 1.6rem;
+            
+            //justify-items: start;
+        }
+    }
+
+    &__nav{
+        display: grid;
+        column-gap: 3rem;
+        row-gap: 2rem;
+        grid: auto / repeat(auto-fit, minmax(10.5rem, 1fr));
+        &--list-item{
+            list-style: none;
+        }
+        &--link{
+            text-decoration: none;
+            color: var(--vpcyan);
+            font-size: 1.5rem;
+        }
+    }
+
+    &__sm-links{
+        display: grid;
+        grid-template-columns: repeat(3, 3rem);
+        column-gap: 2rem;
+
+        @media (max-width: 870px){
+            justify-content: center;
+        }
+
+        &--icon{
+            height: 4rem;
+            width: 4rem;
+            padding: 1rem;
+            border: var(--white) 1px solid;
+            border-radius: 100%;
+        }
+    }
+}
