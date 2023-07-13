@@ -52,4 +52,4 @@ Users should be able to:
 
 
 ## Author
-- Frontend Mentor - [@Seyi-Amusan](https://www.frontendmentor.io/profile/Seyi-Amusan)
+- Frontend Mentor - [@Seyi-Amusan](https://www.frontendmentor.io/solutions/huddle-landing-page-UMi0KMVI74)
