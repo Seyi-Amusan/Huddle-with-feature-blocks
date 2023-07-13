@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://https://www.frontendmentor.io/solutions/huddle-landing-page-UMi0KMVI74.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-UMi0KMVI74)
 
 
 ## My process
@@ -52,4 +52,4 @@ Users should be able to:
 
 
 ## Author
-- Frontend Mentor - [@Seyi-Amusan](https://www.frontendmentor.io/solutions/huddle-landing-page-UMi0KMVI74)
+- Frontend Mentor - [@Seyi-Amusan](https://www.frontendmentor.io/profile/Seyi-Amusan)
