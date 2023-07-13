@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Alt text](image.png)
+![Alt text](images/image.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://https://www.frontendmentor.io/solutions/huddle-landing-page-UMi0KMVI74.com)
+
 
 ## My process
 
